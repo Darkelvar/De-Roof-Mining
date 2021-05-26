@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+<name>De-roof mining</name>
+<author>Darkelvar</author>
+<packageId>Darkelvar.DeroofMining</packageId>
+<supportedVersions><li>1.2</li></supportedVersions>
+<description>This mod allows you to use de-roof mining where pawns will check for and remove the roof before mining a tile. Optional toggling in for also removing thick roofs (aka overhead mountains).</description>
+</ModMetaData>

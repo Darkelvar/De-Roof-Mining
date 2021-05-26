@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<drM.defaultDesc>标记需要开采的岩石，开采前会先移除岩顶。</drM.defaultDesc>
+<drM.defaultLabel>除顶开采</drM.defaultLabel>
+<drM.toreturn>必须指定不可通过的可开采岩石。</drM.toreturn>
+<drM.setting1>开关移除厚岩顶</drM.setting1>
+<drM.setting2>开采前移除厚岩顶</drM.setting2>
+<drM.settingsmodname>除顶开采</drM.settingsmodname>
+</LanguageData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<drM.defaultDesc>Designate areas of rock to be mined out, removing the roof beforehand.</drM.defaultDesc>
+<drM.defaultLabel>De-roof Mine</drM.defaultLabel>
+<drM.toreturn>Must designate impassable mineable rocks.</drM.toreturn>
+<drM.setting1>Turn removing overhead mountain on/off</drM.setting1>
+<drM.setting2>Remove Overhead Mountains</drM.setting2>
+<drM.settingsmodname>De-Roof Mining</drM.settingsmodname>
+</LanguageData>

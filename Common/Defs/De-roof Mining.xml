@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WorkGiverDef>
+    <defName>drM_SmartMine</defName>
+    <label>smartmine</label>
+    <giverClass>drM.WorkGiver_SmartMiner</giverClass>
+    <workType>Mining</workType>
+    <priorityInType>110</priorityInType>
+    <verb>mine</verb>
+    <gerund>mining</gerund>
+    <tagToGive>Fieldwork</tagToGive>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+  <DesignationDef>
+    <defName>drm_SmartMine</defName>
+    <texturePath>Designations/Mine</texturePath>
+    <targetType>Cell</targetType>
+    <removeIfBuildingDespawned>true</removeIfBuildingDespawned>
+  </DesignationDef>
+  <JobDef>
+    <defName>drm_SmartMine</defName>
+    <driverClass>drm.JobDriver_SmartMine</driverClass>
+    <reportString>digging at TargetA.</reportString>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+</Defs>

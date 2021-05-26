@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <success>Normal</success>
+    <xpath>/Defs/DesignationCategoryDef[defName="Orders"]/specialDesignatorClasses</xpath>
+    <value>
+      <li>Designator_SmartMine</li>
+    </value>
+  </Operation>
+</Patch>
