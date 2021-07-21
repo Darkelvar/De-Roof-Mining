@@ -110,10 +110,10 @@ namespace drM
             {
                 return null;
             }
-            if (!new HistoryEvent(HistoryEventDefOf.Mined, pawn.Named(HistoryEventArgsNames.Doer)).Notify_PawnAboutToDo_Job())
+            /*if (!new HistoryEvent(HistoryEventDefOf.Mined, pawn.Named(HistoryEventArgsNames.Doer)).Notify_PawnAboutToDo_Job())
             {
                 return null;
-            }
+            }*/
             bool flag=false;
             for (int i = 0; i < 8; i++)
             {
@@ -340,7 +340,7 @@ namespace drM
             doWork.FailOnCannotTouch(TargetIndex.A, PathEndMode.Touch);
             //doWork.PlaySoundAtStart(SoundDefOf.Roof_Start); - sounds were getting annoying fast, removed
             //doWork.PlaySoundAtEnd(SoundDefOf.Roof_Finish); - sounds were getting annoying fast, removed
-            doWork.WithEffect(EffecterDefOf.RoofWork, TargetIndex.A, null);
+            doWork.WithEffect(EffecterDefOf.RoofWork, TargetIndex.A);
             doWork.WithProgressBar(TargetIndex.A, () => 1f - this.workLeft / 65f, false, -0.5f);
             doWork.defaultCompleteMode = ToilCompleteMode.Never;
             doWork.activeSkill = (() => SkillDefOf.Construction);
